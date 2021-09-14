@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+}
+
+#oracao{
+    background-color: rgb(153, 243, 153);
+    border-radius: 5px;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#nome{
+    font-weight: bold;
+}
+
+#intro_oracao, h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+@media(max-width: 720px){
+    #oracao{
+        width: auto;
+    }
+}

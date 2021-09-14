@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC&display=swap');
+
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Vollkorn SC', serif;
+}
+
+.container{
+    width: 100%;
+}
+
+#article{
+    display: flex;
+}
+
+#header{
+    width: 100%;
+}
+
+#image{
+    padding: 20px;
+    width: 60%;;
+}
+
+img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#paragrafo{
+    padding: 20px;
+    text-align: justify;
+}
+
+#contato{
+    text-align: center;
+}
+
+@media(min-width: 300px){
+    #article{
+        font-size: 25px;
+    }
+
+}
+
+@media(max-width: 800px){
+    #image{
+        width: auto;
+    }
+
+}
+
+@media(max-width: 920px){
+    #article{
+        display: block;
+    }
+
+    #paragrafo{
+        text-align: center;
+    }
+}
+
+@media(min-width: 920px){
+    #paragrafo, #contato{
+        width: 50%;
+    }
+
+}
